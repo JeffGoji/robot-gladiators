@@ -68,3 +68,17 @@ console.log(
     enemyHealth +
     " health remaining."
 );
+
+// check player's health
+if (playerHealth <= 0) {
+  window.alert(playerName + " has died!");
+} else {
+  window.alert(playerName + " still has " + playerHealth + " health left.");
+}
+
+// check enemy's health
+if (enemyHealth <= 0) {
+  window.alert(enemyName + " has died!");
+} else {
+  window.alert(enemyName + " still has " + enemyHealth + " health left.");
+}
